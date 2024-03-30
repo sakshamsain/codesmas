@@ -1,0 +1,252 @@
+/front page of Icorder website/
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/bootstap.css" />
+  <title>icorder devlopers</title>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+</head>
+
+<body class="p-3 m-0 border-0 bd-example m-0 border-0">
+
+
+
+  <nav class="navbar" style="background-color: #3f3751c3;">
+    <div class="container-fluid">
+      <a class="navbar-brand" style="color: white;" href="#">Icorder</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true">resources</a>
+          </li>
+        </ul>
+
+
+      </div>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+
+      <a class="btn btn-primary" href="loginButton.html" role="button">login</a>
+
+
+    </div>
+
+  </nav>
+
+  <div id="carouselExampleCaptions" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="7.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>First slide label</h5>
+          <p>Some representative placeholder content for the first slide.
+
+            <br>
+
+            <a class="btn btn-primary" href="https://codewithharry.com" role="button">catlog</a>
+
+            <button type="button" class="btn btn-secondary">recources</button>
+            <button type="button" class="btn btn-success">career center</button>
+            <button type="button" class="btn btn-danger">doubts</button>
+
+          </p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="6.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Second slide label</h5>
+          <p>Some representative placeholder content for the second slide.
+            <br>
+            <br>
+            <button type="button" class="btn btn-primary">Primary</button>
+            <button type="button" class="btn btn-secondary">Secondary</button>
+            <button type="button" class="btn btn-success">Success</button>
+            <button type="button" class="btn btn-danger">Danger</button>
+          </p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="14.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Third slide label</h5>
+          <p>Some representative placeholder content for the third slide.
+            <br>
+            <br>
+            <button type="button" class="btn btn-primary">Primary</button>
+            <button type="button" class="btn btn-secondary">Secondary</button>
+            <button type="button" class="btn btn-success">Success</button>
+            <button type="button" class="btn btn-danger">Danger</button>
+          </p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <br>
+
+  <div class="card-group">
+    <div class="card text-bg-primary mb-3">
+      <img src="19.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Basics of c</h5>
+        <p class="card-text">C is a general-purpose, procedural, high-level programming language used in the development
+          of computer software and applications, system programming, games,</p>
+        <p class="card-text"><small class="text-body-primary"></small></p>
+
+      </div>
+    </div>
+    <div class="card">
+      <img src="20.jpg" class="card-img-top" alt="...">
+      <div class="card text-bg-success mb-3">
+        <h5 class="card-title">
+          <br>Basics of c++
+        </h5>
+        <p class="card-text">C++ is a most popular cross-platform programming language which is used to create
+          high-performance applications and software like OS, Games, E-commerce software, etc.
+          <br>
+
+          <br>
+        </p>
+        <p class="card-text"><small class="text-body-secondary"></small></p>
+      </div>
+    </div>
+    <div class="card text-bg-warning mb-3">
+      <img src="18.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Basics of python</h5>
+        <p class="card-text">Python tutorial will help you efficiently, with all topics from basics to advanced (like
+          Web-scraping, Django, Learning, etc.) with examples.</p>
+        <p class="card-text"><small class="text-body-secondary"></small></p>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <div class="p-3 mb-2 bg-info-subtle text-info-emphasis">Embark on a creative journey with our Animation Course!
+    Unleash your imagination and learn the art of bringing characters to life through dynamic motion. Our comprehensive
+    program covers everything from the fundamentals to advanced techniques, equipping you with the skills needed for a
+    successful career in animation. Join us to explore the captivating world where ideas evolve into animated wonders.
+    Elevate your portfolio with our animation expertise!</div>
+  <br>
+
+
+
+  <div class="p-3 mb-2 bg-primary-subtle text-primary-emphasis">
+
+    <div class="card mb-3" style="max-width: 800px;">
+      <div class="row g-8">
+        <div class="col-md-4">
+          <img src="23.jpg" class="img-fluid rounded-start" alt="...">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">WEB DESIGN & DEVELOPMENT</h5>
+            <hr>
+            <p class="card-text">Immerse yourself in the art and science of creating visually captivating, user-friendly
+              websites. From mastering coding languages to the latest design trends, our program, guided by industry
+              experts, ensures hands-on experience with cutting-edge tools. Join us to turn your passion into a
+              profession, shaping the digital landscape. Elevate your skills and enroll now to become a trailblazer in
+              web design and development. Your future in digital excellence starts here!</p>
+            <p><a href="#"
+                class="link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Info link</a>
+            </p>
+
+
+            <p class="card-text">
+              <large class="text-body-secondary"></large>
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+
+    </div>
+    <div class="container">
+      <div class="row justify-content-end">
+        <div class="col-md-6"> <!-- Adjust the column size based on your layout -->
+          <div class="card mb-3" style="max-width: 800px;">
+            <div class="row g-0">
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Motion Graphics</h5>
+                  <hr>
+                  <p class="card-text">Explore the art of blending animation and graphic design, creating compelling
+                    narratives that captivate audiences. Our comprehensive program, guided by industry professionals,
+                    covers everything from concept development to hands-on experience with industry-standard tools. Join
+                    us to master the techniques of dynamic motion graphics, turning your creative visions into impactful
+                    visual communication. Elevate your skills, make your mark in the world of design, and enroll now to
+                    shape the future of animated storytelling!</p>
+                  <p><a href="#"
+                      class="link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Info
+                      link</a></p>
+
+                  <p class="card-text"><small class="text-body-secondary"></small></p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <img src="25.jpg" class="img-fluid rounded-start" alt="...">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  </div>
+  
+
+  </div>
+
+  </div>
+
+</body>
+
+</html>
